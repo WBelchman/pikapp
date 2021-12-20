@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pikapp/static/css/main.a8bc5338.chunk.css",
-    "main.js": "/pikapp/static/js/main.2c3d50e5.chunk.js",
-    "main.js.map": "/pikapp/static/js/main.2c3d50e5.chunk.js.map",
+    "main.js": "/pikapp/static/js/main.db226c9d.chunk.js",
+    "main.js.map": "/pikapp/static/js/main.db226c9d.chunk.js.map",
     "runtime-main.js": "/pikapp/static/js/runtime-main.9871d8d2.js",
     "runtime-main.js.map": "/pikapp/static/js/runtime-main.9871d8d2.js.map",
     "static/css/2.08a44a03.chunk.css": "/pikapp/static/css/2.08a44a03.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.08a44a03.chunk.css",
     "static/js/2.d79f6b6a.chunk.js",
     "static/css/main.a8bc5338.chunk.css",
-    "static/js/main.2c3d50e5.chunk.js"
+    "static/js/main.db226c9d.chunk.js"
   ]
 }
