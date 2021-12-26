@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pikapp/static/css/main.63f9ef64.chunk.css",
-    "main.js": "/pikapp/static/js/main.4ac5deed.chunk.js",
-    "main.js.map": "/pikapp/static/js/main.4ac5deed.chunk.js.map",
+    "main.css": "/pikapp/static/css/main.5fa2b7c8.chunk.css",
+    "main.js": "/pikapp/static/js/main.24751f7b.chunk.js",
+    "main.js.map": "/pikapp/static/js/main.24751f7b.chunk.js.map",
     "runtime-main.js": "/pikapp/static/js/runtime-main.9871d8d2.js",
     "runtime-main.js.map": "/pikapp/static/js/runtime-main.9871d8d2.js.map",
     "static/css/2.08a44a03.chunk.css": "/pikapp/static/css/2.08a44a03.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.ce8b4fc3.chunk.js.map": "/pikapp/static/js/3.ce8b4fc3.chunk.js.map",
     "index.html": "/pikapp/index.html",
     "static/css/2.08a44a03.chunk.css.map": "/pikapp/static/css/2.08a44a03.chunk.css.map",
-    "static/css/main.63f9ef64.chunk.css.map": "/pikapp/static/css/main.63f9ef64.chunk.css.map",
+    "static/css/main.5fa2b7c8.chunk.css.map": "/pikapp/static/css/main.5fa2b7c8.chunk.css.map",
     "static/js/2.e13684ba.chunk.js.LICENSE.txt": "/pikapp/static/js/2.e13684ba.chunk.js.LICENSE.txt",
     "static/media/PKP-Centered-Logo.0eb002f0.png": "/pikapp/static/media/PKP-Centered-Logo.0eb002f0.png",
     "static/media/PKP-house.ebdca49a.jpg": "/pikapp/static/media/PKP-house.ebdca49a.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.9871d8d2.js",
     "static/css/2.08a44a03.chunk.css",
     "static/js/2.e13684ba.chunk.js",
-    "static/css/main.63f9ef64.chunk.css",
-    "static/js/main.4ac5deed.chunk.js"
+    "static/css/main.5fa2b7c8.chunk.css",
+    "static/js/main.24751f7b.chunk.js"
   ]
 }
