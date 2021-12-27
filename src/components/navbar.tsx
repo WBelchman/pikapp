@@ -1,63 +1,41 @@
-import React from 'react'
 import { 
     AppBar, 
     Container, 
     Box, 
-    Menu, 
     Toolbar, 
     Button } from '@mui/material';
 
-import logo1 from '../images/PKP.png'
+// import logo1 from '../images/PKP.png'
 import logo2 from '../images/PKP-Centered-Logo.png'
 
 import { useNavigate } from 'react-router-dom'
+import mobileCheck from '../utils/mobileDetect';
 
-// These two must be aligned... sorry
+// These arrays must be aligned... 
 const pages = ['About', 'Brothers', 'Alumni', 'Events'];
-const urls = ['/', '/brothers', '/alumni', '/events']
+const urls = ['/about', '/brothers', '/alumni', '/events']
 
 const NavBar = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const navigate = useNavigate()
 
-  return (
-    <AppBar style={{position:'sticky', backgroundColor:'white'}}>
-      <Container maxWidth="xl" style={{marginLeft:0}}>
-        <Toolbar disableGutters>
-          <img style={{height:100, padding:20}} src={logo2} alt="Pi Kappa Phi star and shield logo"/>
+  const isMobile = mobileCheck();
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {/* {urls.map((url) => (
-                <MenuItem key={url}>
-                  <Typography textAlign="center">{url}</Typography>
-                </MenuItem>
-                
-              ))} */}
-            </Menu>
-          </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+  const logoStack = isMobile ? 'column' : 'row'
+
+  return (
+    <AppBar style={{position:'sticky', backgroundColor:'white', opacity:0.95}}>
+      <Container style={{marginLeft:0, width:"100vw"}}>
+        <Toolbar disableGutters style={{display:'flex', flexDirection:logoStack, flexWrap:'wrap'}}>
+
+          <img  style={{height:"7vw", minHeight:"60px", maxHeight:"100px", padding:20}} 
+            onClick={() => navigate('/')} src={logo2} alt="Pi Kappa Phi star and shield logo"/>
+
+          <Box sx={{display: 'flex'}}>
             {pages.map((page, i) => (
               <Button
                 key={page}
                 onClick={() => navigate(urls[i])}
-                sx={{ my: 2, color: 'blue', display: 'block' }}
+                sx={{ marginTop: isMobile ? 0 : 4, marginBottom: 0, fontSize:"medium", padding:2, color: 'blue', display: 'block' }}
               >
                 {page}
               </Button>
