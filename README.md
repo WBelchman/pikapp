@@ -1,6 +1,6 @@
 ## Description
 
-Website for UVA Pi Kappa Phi fraternity build using React and TypeScript
+Website for UVA Pi Kappa Phi fraternity built using React and TypeScript
 
 # Getting Started with Create React App
 
